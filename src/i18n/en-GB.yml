@@ -1,0 +1,4 @@
+'en-GB':
+  greeting: Hello world!
+  options: "Option 1\nOption 2\nOption 3"
+  long_text: This is a long text

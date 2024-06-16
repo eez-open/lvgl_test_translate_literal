@@ -20,6 +20,8 @@
 
 #include "src/ui/ui.h"
 
+#include "src/i18n/lv_i18n.h"
+
 /*********************
  *      DEFINES
  *********************/
@@ -66,6 +68,9 @@ int main(int argc, char ** argv)
 
     /*Initialize LittlevGL*/
     lv_init();
+
+    lv_i18n_init(lv_i18n_language_pack);
+    lv_i18n_set_locale("hr-HR");
 
     /*Initialize the HAL (display, input devices, tick) for LittlevGL*/
     hal_init();

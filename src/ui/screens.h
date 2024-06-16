@@ -9,9 +9,7 @@ extern "C" {
 
 typedef struct _objects_t {
     lv_obj_t *main;
-    lv_obj_t *obj0;
-    lv_obj_t *obj1;
-    lv_obj_t *obj2;
+    lv_obj_t *my_label;
 } objects_t;
 
 extern objects_t objects;
